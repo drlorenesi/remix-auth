@@ -1,0 +1,52 @@
+.table td:first-child,
+.table th:first-child {
+  position: sticky;
+  left: 0;
+  background-color: white;
+}
+
+/* Offcanvas menu size */
+.offcanvas.offcanvas-end.offcanvas-toggling {
+  width: 300px;
+}
+
+.offcanvas.offcanvas-end.show {
+  width: 300px;
+}
+
+/* New CSS */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.error {
+  color: darkred;
+}
+
+/* Login and Register Forms */
+/* https://www.w3schools.com/css/css_margin.asp */
+/* https://www.freecodecamp.org/news/how-to-build-sign-up-form-with-html-and-css/ */
+.login-form {
+  margin-top: -100px;
+  margin-bottom: 32px;
+  width: 340px;
+  background: #f7f7f7;
+  border-radius: 1rem;
+  padding: 32px;
+  /* https://getcssscan.com/css-box-shadow-examples */
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+/* Mesh gradient for login from*/
+/* https://cssgradient.io/gradient-backgrounds/ */
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+}

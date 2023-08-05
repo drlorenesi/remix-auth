@@ -1,0 +1,25 @@
+{
+  "name": "Sample Remix App",
+  "short_name": "Remix App",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#FFE9D2",
+  "theme_color": "#F8F9FA",
+  "icons": [
+    {
+      "src": "/img/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/img/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
